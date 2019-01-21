@@ -7,16 +7,16 @@ int main(void)
     char input[50];
     int _true = 0;
 
-    printf("\n Enter the password : \n");
+    printf("Enter the password : \n");
     gets(input);
 
-    if(strcmp(input, "Imp0ssibl3!"))
+    if(strcmp(input, "Imp0ssibl3") || strcmp(input, "Ch41l3ng3!"))
     {
-        printf ("\n Try Harder! \n");
+        printf ("Try Harder! \n");
     }
     else
     {
-        printf ("\n Hackerman! \n");
+        printf ("Hackerman! \n");
         _true = 1;
     }
 

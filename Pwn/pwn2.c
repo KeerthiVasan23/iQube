@@ -10,7 +10,7 @@ int main(void)
     printf("\n Enter the password : \n");
     gets(input);
 
-    if(strcmp(input, "Imp0ssibl3!"))
+    if(strcmp(input, "Imp0ssibl3") || strcmp(input, "Ch41l3ng3!"))
     {
         printf ("\n Try Harder! \n");
     }

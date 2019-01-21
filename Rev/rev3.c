@@ -17,7 +17,7 @@ int main(){
 	printf("May the force be with you!\n");
     }
     else{
-	printf("You were supposed find them! Not guess them!\n");
+	printf("You were supposed to find them! Not guess them!\n");
     }
     return 0;
 }
