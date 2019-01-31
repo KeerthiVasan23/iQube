@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    char input[50];
+    char input[100];
     int _true = 0;
 
     printf("\n Enter the password : \n");
@@ -23,7 +23,7 @@ int main(void)
     if(_true)
     {
 
-        system("cat /home/keerthi/iQube/flag");
+        system("cat /bin/pwn2");
     }
 
     return 0;

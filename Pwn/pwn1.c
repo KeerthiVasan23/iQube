@@ -3,24 +3,31 @@
 
 int main(){
 
-	int cookies = 0;
+	int cells = 0;
 	int n;
-	while (cookies >= 0){
-		printf("You have %d cookies.\n",cookies);
-		printf("How many more do you want?\n ");
+	while (cells >= 0){
+		printf("You have %d midiclorians.\n",cells);
+		printf("Feeling Strong?\n ");
 
 		if (scanf("%d",&n) != 1){
-			printf("Really?\n");
+			printf("010001100110111101110010011000110110010100100001\n");
 		} else {
 			if (n < 0){
-				printf("Know some Math!\n");
+				printf("..-. --- .-. -.-. . \n");
 			} else {
-				cookies += n;
+				cells += n;
 			}
 		}
 	}
 	
-	printf("Congrats! %d. You win!\n", cookies);
-	system("cat /home/keerthi/iQube/flag");
+	printf("A New Hope!\n");
+	system("cat /bin/pwn1");
+        return 0;
 
 }
+
+/*
+2147483647
+NovaCTF{Th3_f0rc3_i5_5tR0NG_1N_YOu}
+gcc pwn1.c -o pwn1
+*/

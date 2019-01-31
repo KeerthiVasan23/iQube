@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char cipher[]="gos^cu/Yq/thYth-Yb0n]-{";
+    char cipher[]="Jir_=TBu/Yq/thYth-Yb0n]-{";
     char flag[]="hey_hacker_it's_not_simple_as_that!";
     char FLAG[100];
     int i;
@@ -21,3 +21,5 @@ int main(){
     }
     return 0;
 }
+
+
