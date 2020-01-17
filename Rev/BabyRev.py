@@ -11,12 +11,12 @@ if(secret=='24051c0b293e2c11033b1f080f47540324045a3c0b1e59350324091f082a5d593503
 else:
 	print "G0t fl4g???"
 
-#NovaCTF{iQube->iNn0Vat3_iNcub@73_iNc0rp0rat3}
-#031b1f080f110324045a3c0b1e59350324091f082a5d59350324095a181a5a180b1e5917 key=ord('i')^3
-#soln:
-'''
-rvsecret=secret.decode('hex')
-for i in rvsecret:
+
+rev='24051c0b293e2c11033b1f080f47540324045a3c0b1e59350324091f082a5d59350324095a181a5a180b1e5917'
+
+rev=rev.decode('hex')
+
+for i in rev:
 	ans+=chr(ord(i)^key)
-print(ans)
-'''
+
+print ans

